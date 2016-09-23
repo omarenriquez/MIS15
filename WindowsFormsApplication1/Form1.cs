@@ -16,7 +16,7 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
-
+        // THE COMMENTS EXPLAIN TO ME WHAT EACH LINE OF CODE DOES SO I CAN REVIEW IT LATER AND STUDY FOR CLASS mis 15
         int numberOfImpacts = 0; // This code assigns the data type "int" to declared variable "numberOfImpacts" 
         double totalAmountOfForce = 0; // declares variable "totalAmountOfForce" and assigns it a data type
         double averageUnitOfForce = 0; // declares variable "averaageUnitOfForce" and assigns it a data type
