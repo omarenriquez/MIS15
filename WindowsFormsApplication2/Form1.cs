@@ -29,16 +29,16 @@ namespace WindowsFormsApplication2
             double monInc = Convert.ToDouble(txtMonthlyIncome.Text); // takes the input from the user on the form
                                                                      // "Monthly Income" box and converts it to double
             double monHouExp = Convert.ToDouble(txtMonthlyHousingExpense.Text); // takes the user input from text box
-                                                                              //"Monthly housing Income" and converts it
+                                                                              //"Monthly housing Expense" and converts it
                                                                               // to double
             double grossInc1 = monInc * .28; // declares a new variable that holds the value of 28% of gross income
             double grossInc2 = monInc * .20; // declares a new variable that holds the value of 20% of gross income
 
-            if (monHouExp >= grossInc1) // this "if statement" states if variable monHouInc is true
+            if (monHouExp > grossInc1) // this "if statement" states if variable monHouInc is true
             {                           // it will assign the string "Not affordable" to variable resultOne
                 resultOne = "Not Affordable"; 
             }
-            else if (monHouExp >= grossInc2 && monHouExp < grossInc1) // this "else if" statement states if variable 
+            else if (monHouExp >= grossInc2 && monHouExp <= grossInc1) // this "else if" statement states if variable 
             {                                                  // is true it will assign the string "Affordable" to 
                 resultOne = "Affordable";                       // variable resultOne
             }
@@ -47,9 +47,14 @@ namespace WindowsFormsApplication2
                 resultOne = "Very Affordable";
             }
 
-            txtAnswer.Text = resultOne.ToString(); // after above code is executed this code converts text box Ansewer
-                                                    // to string type and assings it variable resultOne to display
+            txtAnswer.Text = resultOne.ToString(); // after above code is executed this code converts text box Answer
+                                                   // to string type and assings it variable resultOne to display
 
+            double roommatesNeeded = Math.Ceiling(monHouExp / grossInc1); // this code does the math in () and rounds up
+            double roommatesNeeded2 = roommatesNeeded - 1; // using code Math.Ceiling() and second code subtracts one from roommmates
+
+            txtStudentsNeeded.Text = roommatesNeeded2.ToString(); // this code converts the above math assigned to variable roommatesNeeded2
+                                                                    // and converts it to string and stores it in txt box "Students Needed"
         }
 
         private void btnExit_Click(object sender, EventArgs e)

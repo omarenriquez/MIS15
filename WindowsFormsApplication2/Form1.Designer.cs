@@ -36,6 +36,8 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.txtAnswer = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtStudentsNeeded = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -111,13 +113,34 @@
             this.txtAnswer.TabIndex = 7;
             this.txtAnswer.TabStop = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(101, 194);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(229, 13);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Students Needed To Make Housing Affordable";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // txtStudentsNeeded
+            // 
+            this.txtStudentsNeeded.Location = new System.Drawing.Point(169, 231);
+            this.txtStudentsNeeded.Name = "txtStudentsNeeded";
+            this.txtStudentsNeeded.ReadOnly = true;
+            this.txtStudentsNeeded.Size = new System.Drawing.Size(100, 20);
+            this.txtStudentsNeeded.TabIndex = 9;
+            this.txtStudentsNeeded.TabStop = false;
+            // 
             // Form1
             // 
             this.AcceptButton = this.btnCalculate;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(465, 168);
+            this.ClientSize = new System.Drawing.Size(465, 364);
+            this.Controls.Add(this.txtStudentsNeeded);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.txtAnswer);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnExit);
@@ -127,6 +150,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -143,6 +167,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtAnswer;
         private System.Windows.Forms.TextBox txtMonthlyIncome;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtStudentsNeeded;
     }
 }
 
