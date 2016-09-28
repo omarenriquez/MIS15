@@ -1,0 +1,9 @@
+C:\Users\NinjaBoo\Documents\Visual Studio 2015\Projects\Project 1_ Omar Enriquez\Project 1_ Omar Enriquez\bin\Debug\WindowsFormsApplication3.exe.config
+C:\Users\NinjaBoo\Documents\Visual Studio 2015\Projects\Project 1_ Omar Enriquez\Project 1_ Omar Enriquez\obj\Debug\WindowsFormsApplication3.exe
+C:\Users\NinjaBoo\Documents\Visual Studio 2015\Projects\Project 1_ Omar Enriquez\Project 1_ Omar Enriquez\obj\Debug\WindowsFormsApplication3.pdb
+C:\Users\NinjaBoo\Documents\Visual Studio 2015\Projects\Project 1_ Omar Enriquez\Project 1_ Omar Enriquez\bin\Debug\WindowsFormsApplication3.exe
+C:\Users\NinjaBoo\Documents\Visual Studio 2015\Projects\Project 1_ Omar Enriquez\Project 1_ Omar Enriquez\bin\Debug\WindowsFormsApplication3.pdb
+C:\Users\NinjaBoo\Documents\Visual Studio 2015\Projects\Project 1_ Omar Enriquez\Project 1_ Omar Enriquez\obj\Debug\Project 1_ Omar Enriquez.csprojResolveAssemblyReference.cache
+C:\Users\NinjaBoo\Documents\Visual Studio 2015\Projects\Project 1_ Omar Enriquez\Project 1_ Omar Enriquez\obj\Debug\WindowsFormsApplication3.Form1.resources
+C:\Users\NinjaBoo\Documents\Visual Studio 2015\Projects\Project 1_ Omar Enriquez\Project 1_ Omar Enriquez\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+C:\Users\NinjaBoo\Documents\Visual Studio 2015\Projects\Project 1_ Omar Enriquez\Project 1_ Omar Enriquez\obj\Debug\Project 1_ Omar Enriquez.csproj.GenerateResource.Cache
